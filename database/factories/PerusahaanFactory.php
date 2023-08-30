@@ -18,8 +18,8 @@ class PerusahaanFactory extends Factory
     {
         return [
             //
-            'nama_perusahaan' => fake('id')->company(),
-            'alamat'            => fake('id')->address()
+            'nama_perusahaan' => fake('id_ID')->company(),
+            'alamat'            => fake('id_ID')->address()
         ];
     }
 }
